@@ -25,5 +25,5 @@ jobs:
       run : npm install -g surge
 
     - name: Deploy the website
-      run: surge ./ http://elderly-sink.surge.sh/ --token ${{secrets.TESTING_SURGE_TOKEN}}
+      run: surge ./ http://asdasdadadsad.surge.sh/ --token ${{secrets.TESTING_SURGE_TOKEN}}
 
